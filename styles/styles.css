@@ -1,3 +1,8 @@
+:root {
+    --primary-color: steelblue;
+    --secondary-color: black;
+    --padding-margin: 1rem;
+}
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +10,7 @@
 }
 
 nav {
-    background-color: steelblue;
+    background-color: var(--primary-color);
     padding: 10px;
 }
 
@@ -16,12 +21,12 @@ nav a {
 }
 
 h1 {
-    color: steelblue;
+    color: var(--primary-color);
 }
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--primary-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
@@ -48,17 +53,17 @@ p {
 }
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid var(--secondary-color);
     text-align: center;
 }
 
 /* Class Selectors */
 .box {
-    margin: 1rem;
-    border: 1px solid black;
-    padding: 1rem;
+    margin: var(--padding-margin);
+    border: 1px solid var(--secondary-color);
+    padding: var(--padding-margin);
     background-color: rgb(221, 221, 221);
-    color: #000;
+    color: var(--secondary-color);
 }
 
 aside h2 {
