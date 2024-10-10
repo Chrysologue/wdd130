@@ -10,7 +10,7 @@ h1, h2 {
     font-weight: 700;
 }
 
-p {
+p, a {
     font-family: "Roboto", system-ui;
     font-weight: 400;
 }
@@ -24,6 +24,8 @@ h2 {
 
 .social-link a {
     text-decoration: none;
+    display: block;
+    padding: 0 1rem;
 }
 
 .hero {
@@ -66,6 +68,70 @@ section img {
     display: block;
 }
 .social-link img{
-    width: 60px;
+    width: 40px;
     height: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 1rem auto;
+    align-items: center;
+    max-width: 1000px;
+}
+
+header img {
+    width: 64px;
+    height: auto;
+    margin: 0 0.25rem 0 1rem;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav a {
+    display: block;
+	color: var(--secondary-color);
+	padding: 20px;
+	text-decoration: none;
+    flex: 1 1 100%;
+}
+
+header nav a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+section .gallery {
+    display: flex;
+    text-align: center;
+}
+
+section .gallery img {
+    width: 100%;
+    height: auto;
+}
+
+section h2 {
+    text-align: center;
+}
+
+figcaption {
+    font-family: "Roboto", system-ui;
+    font-weight: 400;;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.social-link {
+    display: flex;
+
 }
