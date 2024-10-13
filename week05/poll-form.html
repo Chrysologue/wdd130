@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <legend>Contact information</legend>
+                <label for="fullame">Full Name:</label>
+                <input type="text" name="fullame" id="fullame"><br>
+                <label for="useremail">Email:</label>
+                <input type="email" name="useremail" id="useremail">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite internet browser?</label>
+                <select name="browser" id="browser">
+                    <option value="google">Google</option>
+                    <option value="edge">edge</option>
+                    <option value="safari">safari</option>
+                    <option value="firefox">Firefox</option>
+                </select><br>
+                <label for="pet">Do you have household pet?</label>
+                <input type="checkbox" name="pet" id="pet"><br>
+                <label for="feedback">List the places you have lived</label>
+                <textarea name="feedback" id="feedback" rows="4" placeholder="Nosy-be Madagascar"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2024 | HTML - User Poll Activity | Chryso Rabearson</p>
+    </footer>
+</body>
+</html>
