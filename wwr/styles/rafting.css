@@ -207,6 +207,14 @@ button:hover {
     width: 100%;
     height: auto;
 }
+.contact-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    align-items: center;
+    margin:  0 auto;
+    max-width: 100%;
+}
 
 /* Home css code */
 .hero-heading h1 {
