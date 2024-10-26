@@ -207,21 +207,26 @@ button:hover {
     width: 100%;
     height: auto;
 }
-.contact-footer {
+.sp-footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     align-items: center;
     margin:  0 auto;
     max-width: 100%;
+    margin-top: 2rem;
 }
 
 /* Home css code */
 .hero-heading h1 {
+    border: 3px solid rgb(156, 156, 156);
     max-width: 1000px;
-    top: 200px;
+    top: 250px;
     left: 160px;
     color: var(--accent1-color);
+    font-family: var(--primary-font);
+    background-color: rgba(0, 0, 0, .6);
+    box-shadow: 10px 10px 3px 0 rgba(255, 255, 255, .1);
 }
 
 .newsletter-container {
